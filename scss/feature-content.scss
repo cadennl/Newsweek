@@ -1,0 +1,173 @@
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+}
+.content
+{
+	
+	position: relative;
+	text-align: center;
+	padding:0;
+	margin: 0;
+
+
+}
+.main-column
+{
+	padding-left: 0;
+}
+.feature-content-wrapper
+{
+	border-bottom: 1px solid #E5E5E5;
+}
+.feature-content
+{
+	border-bottom: 5px solid red;
+	img
+	{
+		width: 100%;
+	}
+}
+
+.feature-info
+{
+	
+	width: 80%;
+	margin: 0 auto;
+	
+	h5
+	{
+		color: red;
+		font-size: 28px;
+		font-weight: 600;
+	}
+	span
+	{
+		text-transform: uppercase;
+		color: black;
+		font-size: 34px;
+		font-weight: 700;
+	}
+	p
+	{
+		font-family: 'Playfair Display',serif;
+		font-size: 26px;
+
+	}
+}
+
+
+
+.side-content
+{
+	text-align: left;
+	width: 50%;
+	margin-top: 20px;
+}
+.side-info
+{
+	text-align: center;
+	width: 100%;
+	h5
+	{
+		color: red;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	span
+	{
+		text-transform: uppercase;
+		color: black;
+		font-size: 34px;
+		font-weight: 700;
+	}
+	p
+	{
+		font-family: 'Playfair Display',serif;
+		font: 17px/21px serif;
+		
+		letter-spacing: 0.25px;
+	}
+	ul
+	{
+		width:80%;
+	}
+	}
+.headlines-content
+{
+	position: relative;
+	top:60px;
+	text-align: left;
+
+}
+.headlines-title
+{
+	position: relative;
+	h3
+	{
+		font-family: 'Playfair Display',serif;
+		color: red;
+		font-size: 19px;
+		text-transform: uppercase;
+		font-weight: 100;
+		font: 21px/22px serif;
+   	    letter-spacing: 0.25px;
+   	        -webkit-font-smoothing: antialiased;
+	}
+}
+.bullet, .blue-bullet
+{
+	padding: 15px 15px 15px 19px;
+	font-size: 16px;
+    line-height: 20px;
+    position: relative;
+}
+
+
+
+.headlines-list
+{
+	
+	margin: 0;
+	padding: 0;
+	li
+	{
+		font-weight: 600;
+		font-size: 16px;
+	}
+}
+
+
+.bullet::before
+ {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 0px;
+    background-color: #FF0500;
+    width: 8px;
+    height: 8px;
+}
+.blue-bullet::before
+ {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 0px;
+    background-color: #00B7FF;
+    width: 8px;
+    height: 8px;
+}
+
+.main-feature
+{
+
+	border-bottom: 1px solid #E5E5E5;
+}
+

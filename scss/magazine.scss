@@ -1,0 +1,54 @@
+.magazine-content
+{
+	margin-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+	@extend .side-info;
+	h3
+	{
+		color: red;
+	}
+}
+.magazine-title
+{
+	margin: 10px;
+	position: relative;
+	.title
+	{
+		    font-family: 'Playfair Display',serif;
+		    font-size: 19px;
+		    font: 21px/22px serif;
+    		letter-spacing: 0.25px;
+    		color: #FF0500;
+    		text-transform: uppercase;
+    		z-index: 1;
+    		padding: 0 20px;
+    		background-color: #fff;
+    		position: relative;
+
+	}
+
+}
+
+.bill
+{
+	img
+	{
+		width: 80%;
+	}
+}
+
+.border
+	{
+		display: block;
+    	width: 100%;
+    	height: 3px;
+    	background-color: #FF0500;
+    	position: absolute;
+    	left:0;
+    	right:0;
+    	top: 50%;
+    	margin-top: -1.5px;
+    	
+	}
+
