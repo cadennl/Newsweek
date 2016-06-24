@@ -1,0 +1,108 @@
+.issue-content
+{
+	display: flex;
+}
+.issue-present
+{
+	padding-left: 20px;
+	padding-top: 225px;
+}
+
+ .btn-label
+{
+    position: relative;
+    top: -10px;
+    left: -10px;
+    margin-left: 0;
+    width: 142px;
+    height: 10px;
+    margin: 10px auto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+
+    span
+    {
+    color: #181818;
+    }
+
+}
+.issue-description
+{
+	margin-top: 225px;
+	padding-left: 25px;
+}
+
+
+.issue-block
+{
+	padding-top: 15px;
+	a
+	{
+		font-weight: 600;
+   	    font-family: 'Source Sans Pro',sans-serif;
+   	    font-size: 26px;
+    	line-height: 30px;
+	
+		color: #181818;
+		.grey
+		{
+			color: #9B9B9B;
+		}
+		.red
+		{
+			color: #FF0500;
+		}
+	}
+}
+
+.issue-description-text
+{
+
+	p
+	{
+		font-family: 'Playfair Display',serif;
+		color: #181818;
+		font: 30px/30px serif;
+    	text-transform: uppercase;
+    	position: relative;
+    	padding: 20px 0 30px;
+    	-webkit-font-smoothing: antialiased;
+    	font-weight: 100;
+	}
+	span
+	{
+		    font-size: 15px;
+    		color: #181818;
+    		letter-spacing: 2px;
+    		line-height: 16px;
+    		margin-top: 15px;
+    		display: block;
+    		text-transform: uppercase;
+    		font-family: 'Playfair Display',serif;
+
+	}
+}
+
+.black-bar
+{
+	background: url("http://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/sprite.png");
+	width: 315px;
+    background-position: 0 -710px;
+    background-size: 315px;
+    height: 6px;
+    margin-top: 25px;
+}
+
+.peek-title
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF0500;
+    padding-top: 50px;
+    font-family: 'Source Sans Pro',sans-serif;
+}

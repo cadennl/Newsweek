@@ -4,7 +4,10 @@ body
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 }
-
+.bullet.noborder
+{
+	border-top: none;
+}
 .header-wrapper
 {
 	
@@ -76,13 +79,15 @@ body
 	position: absolute;
 	top: 50%;
 	margin-top: -20px;
-	border-radius: 50%;
+	
 
 
 	img
 	{
 		height: auto;
 		max-width: 100%;
+		border-radius: 50%;
+
 	}
 }
 .subscribe-block
